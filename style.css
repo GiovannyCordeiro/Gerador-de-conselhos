@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color:hsl(218, 23%, 16%);
+}
+        
+main{
+    position: relative;
+    top: 8.2em;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .content{
+    position: relative;
+    width: 92%;         
+    height: 52vh;
+    background: hsl(217, 19%, 24%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    padding-top: 2.7em; 
+}
+
+main .content h5{
+    color:hsl(150, 100%, 66%);
+    font-size: .8em;
+    letter-spacing: .28em;
+}
+
+main .content h3{
+    width: 90%;
+    margin: 1.2em 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+main .content .pattern{
+    width: 80%;
+    height: 1.5em;
+    background: url(/images/pattern-divider-mobile.svg)center center no-repeat;
+    background-size: 100%;
+}
+
+main .button{
+    position: relative;
+    bottom: 2.2em;
+    width: 4.4em;
+    height: 4.4em;
+    background: hsl(150, 100%, 66%);
+    border-radius: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.attribution { 
+    width: 98%;
+    position: absolute;
+    font-size: 11px; 
+    text-align: center; 
+    bottom: 6em;
+    color: #fff;
+}
+.attribution a { 
+    color: hsl(228, 82%, 65%); 
+}

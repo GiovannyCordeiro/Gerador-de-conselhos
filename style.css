@@ -70,9 +70,39 @@ main .button{
     position: absolute;
     font-size: 11px; 
     text-align: center; 
-    bottom: 6em;
+    bottom: 8em;
     color: #fff;
 }
 .attribution a { 
     color: hsl(228, 82%, 65%); 
+}
+
+@media screen and (min-width: 1000px){
+
+    main{
+        position: relative;
+        top: 2em;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    main .content{
+        width: 36.8%;
+        height: 42.5vh;
+        border-radius: 1em;
+    }
+    
+    main .content h3{
+        font-size: 1.7em;
+    }
+
+    main .content .pattern{
+        width: 90%;
+        background: url(/images/pattern-divider-desktop.svg)center center no-repeat;
+    }
+
+    main .button{
+        width: 4em;
+        height: 4em;
+    }
 }
